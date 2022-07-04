@@ -169,5 +169,14 @@ int SinglyLinkedList::IndexOf(int data) const
 
 int main()
 {
+	SinglyLinkedList sll;
+	sll.AddToTail(10);
+	sll.AddToTail(20);
+	sll.AddToTail(30);
+	sll.AddToTail(40);
 
+	sll.DeleteByIndex(1);
+	sll.Print();
+	
+	return 0;
 }
